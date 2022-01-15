@@ -25,4 +25,5 @@ basic.forever(function () {
     } else if (input.isGesture(Gesture.LogoUp)) {
         radio.sendString("spate")
     }
+    basic.pause(500)
 })
