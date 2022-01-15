@@ -1,6 +1,9 @@
 input.onButtonPressed(Button.A, function () {
     radio.sendString("aluneca stanga")
 })
+input.onButtonPressed(Button.AB, function () {
+    radio.sendString("stop")
+})
 input.onButtonPressed(Button.B, function () {
     radio.sendString("aluneca dreapta")
 })
